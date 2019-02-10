@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2569C99B2210DB4500FC1D1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D47E3C2210D0D300C25C70 /* ViewController.swift */; };
+		2569C99C2210DB4500FC1D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D47E3A2210D0D300C25C70 /* AppDelegate.swift */; };
+		2569C99F2210DB4500FC1D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D47E432210D0D300C25C70 /* LaunchScreen.storyboard */; };
+		2569C9A02210DB4500FC1D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D47E412210D0D300C25C70 /* Assets.xcassets */; };
+		2569C9A12210DB4500FC1D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D47E3E2210D0D300C25C70 /* Main.storyboard */; };
+		2569C9AC2210E40000FC1D1C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569C9AB2210E40000FC1D1C /* Config.swift */; };
+		2569C9AD2210E44400FC1D1C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2569C9A72210E11A00FC1D1C /* Config.swift */; };
 		25D47E3B2210D0D300C25C70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D47E3A2210D0D300C25C70 /* AppDelegate.swift */; };
 		25D47E3D2210D0D300C25C70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D47E3C2210D0D300C25C70 /* ViewController.swift */; };
 		25D47E402210D0D300C25C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25D47E3E2210D0D300C25C70 /* Main.storyboard */; };
@@ -15,7 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25D47E372210D0D200C25C70 /* XfinityCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XfinityCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2569C9A52210DB4500FC1D1C /* The Wire Character Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Wire Character Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2569C9A72210E11A00FC1D1C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2569C9AB2210E40000FC1D1C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		25D47E372210D0D200C25C70 /* Simpsons Character Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Character Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D47E3A2210D0D300C25C70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25D47E3C2210D0D300C25C70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		25D47E3F2210D0D300C25C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -25,6 +35,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2569C99D2210DB4500FC1D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25D47E342210D0D200C25C70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2569C9A92210E3C600FC1D1C /* Simpsons */ = {
+			isa = PBXGroup;
+			children = (
+				2569C9AB2210E40000FC1D1C /* Config.swift */,
+			);
+			path = Simpsons;
+			sourceTree = "<group>";
+		};
+		2569C9AA2210E3D400FC1D1C /* TheWire */ = {
+			isa = PBXGroup;
+			children = (
+				2569C9A72210E11A00FC1D1C /* Config.swift */,
+			);
+			path = TheWire;
+			sourceTree = "<group>";
+		};
 		25D47E2E2210D0D200C25C70 = {
 			isa = PBXGroup;
 			children = (
@@ -46,7 +79,8 @@
 		25D47E382210D0D200C25C70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25D47E372210D0D200C25C70 /* XfinityCodingTest.app */,
+				25D47E372210D0D200C25C70 /* Simpsons Character Viewer.app */,
+				2569C9A52210DB4500FC1D1C /* The Wire Character Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +88,8 @@
 		25D47E392210D0D300C25C70 /* XfinityCodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				2569C9A92210E3C600FC1D1C /* Simpsons */,
+				2569C9AA2210E3D400FC1D1C /* TheWire */,
 				25D47E3A2210D0D300C25C70 /* AppDelegate.swift */,
 				25D47E3C2210D0D300C25C70 /* ViewController.swift */,
 				25D47E3E2210D0D300C25C70 /* Main.storyboard */,
@@ -67,9 +103,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25D47E362210D0D200C25C70 /* XfinityCodingTest */ = {
+		2569C9992210DB4500FC1D1C /* The Wire Character Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25D47E492210D0D300C25C70 /* Build configuration list for PBXNativeTarget "XfinityCodingTest" */;
+			buildConfigurationList = 2569C9A22210DB4500FC1D1C /* Build configuration list for PBXNativeTarget "The Wire Character Viewer" */;
+			buildPhases = (
+				2569C99A2210DB4500FC1D1C /* Sources */,
+				2569C99D2210DB4500FC1D1C /* Frameworks */,
+				2569C99E2210DB4500FC1D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Wire Character Viewer";
+			productName = XfinityCodingTest;
+			productReference = 2569C9A52210DB4500FC1D1C /* The Wire Character Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25D47E362210D0D200C25C70 /* Simpsons Character Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25D47E492210D0D300C25C70 /* Build configuration list for PBXNativeTarget "Simpsons Character Viewer" */;
 			buildPhases = (
 				25D47E332210D0D200C25C70 /* Sources */,
 				25D47E342210D0D200C25C70 /* Frameworks */,
@@ -79,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = XfinityCodingTest;
+			name = "Simpsons Character Viewer";
 			productName = XfinityCodingTest;
-			productReference = 25D47E372210D0D200C25C70 /* XfinityCodingTest.app */;
+			productReference = 25D47E372210D0D200C25C70 /* Simpsons Character Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,12 +165,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25D47E362210D0D200C25C70 /* XfinityCodingTest */,
+				25D47E362210D0D200C25C70 /* Simpsons Character Viewer */,
+				2569C9992210DB4500FC1D1C /* The Wire Character Viewer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2569C99E2210DB4500FC1D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2569C99F2210DB4500FC1D1C /* LaunchScreen.storyboard in Resources */,
+				2569C9A02210DB4500FC1D1C /* Assets.xcassets in Resources */,
+				2569C9A12210DB4500FC1D1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25D47E352210D0D200C25C70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,11 +195,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2569C99A2210DB4500FC1D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2569C99B2210DB4500FC1D1C /* ViewController.swift in Sources */,
+				2569C99C2210DB4500FC1D1C /* AppDelegate.swift in Sources */,
+				2569C9AD2210E44400FC1D1C /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25D47E332210D0D200C25C70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				25D47E3D2210D0D300C25C70 /* ViewController.swift in Sources */,
+				2569C9AC2210E40000FC1D1C /* Config.swift in Sources */,
 				25D47E3B2210D0D300C25C70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +237,43 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2569C9A32210DB4500FC1D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENDPOINT_URL = " http://api.duckduckgo.com/?q=the+wire+characters&format=json";
+				INFOPLIST_FILE = XfinityCodingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.XfinityCodingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2569C9A42210DB4500FC1D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENDPOINT_URL = "";
+				INFOPLIST_FILE = XfinityCodingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.XfinityCodingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		25D47E472210D0D300C25C70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENDPOINT_URL = " http://api.duckduckgo.com/?q=simpsons+characters&format=json";
 				INFOPLIST_FILE = XfinityCodingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENDPOINT_URL = "";
 				INFOPLIST_FILE = XfinityCodingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,6 +429,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2569C9A22210DB4500FC1D1C /* Build configuration list for PBXNativeTarget "The Wire Character Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2569C9A32210DB4500FC1D1C /* Debug */,
+				2569C9A42210DB4500FC1D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		25D47E322210D0D200C25C70 /* Build configuration list for PBXProject "XfinityCodingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -324,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25D47E492210D0D300C25C70 /* Build configuration list for PBXNativeTarget "XfinityCodingTest" */ = {
+		25D47E492210D0D300C25C70 /* Build configuration list for PBXNativeTarget "Simpsons Character Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25D47E4A2210D0D300C25C70 /* Debug */,
